@@ -1404,7 +1404,7 @@ function updateTrojanPanel() {
     docker exec trojan-panel-mariadb mysql -u"${mariadb_user}" -p"${mariadb_pas}" -e 'create database trojan_panel_db;'
   fi
 
-  docekr restart trojan-panel-redis
+  docker restart trojan-panel-redis
 
   docker cp ${TROJAN_PANEL_UPDATE_DIR} trojan-panel:${TROJAN_PANEL_DATA} \
   && docker restart trojan-panel \
