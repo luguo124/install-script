@@ -30,11 +30,15 @@ apt install -y wget;wget --no-check-certificate -O install_script.sh https://git
 
 # Documentation
 
-请参考[Wiki](https://github.com/trojanpanel/install-script/wiki)
+[Wiki](https://github.com/trojanpanel/install-script/wiki)
 
-# Bugs & Issues
+# Issues
 
-[Issues](https://github.com/trojanpanel/install-script/issues) or [Trojan Panel交流群](https://t.me/TrojanPanelGroup)
+[Issues](https://github.com/trojanpanel/install-script/issues)
+
+# Discuss
+
+Telegram: [Trojan Panel交流群](https://t.me/TrojanPanelGroup)
 
 # Thanks
 
